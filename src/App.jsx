@@ -4,6 +4,7 @@ import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import Home from "./pages/Home";
 import Product from "./pages/Product";
+import Login from "./pages/Login";
 function App(){
   return(
     <BrowserRouter>
@@ -13,6 +14,7 @@ function App(){
         <Routes>
           <Route path="/" element={<Home/>}/>
           <Route path="/products" element={<Product/>}/>
+          <Route path="/login" element={<Login/>}/>
 
         </Routes>
        </main>
